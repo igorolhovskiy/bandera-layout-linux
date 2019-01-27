@@ -5,6 +5,7 @@ This is inspired by https://github.com/muromec/bandera-layout
 Installation
 
 ```
+wget https://raw.githubusercontent.com/samael33/bandera-layout-linux/master/ua
 sudo cp ua /usr/share/X11/xkb/symbols/ua
 ```
 
