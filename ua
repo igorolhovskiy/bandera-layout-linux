@@ -324,12 +324,27 @@ xkb_symbols "bandera" {
     
     key <TLDE> { [       Cyrillic_io,       Cyrillic_IO,    asciitilde, apostrophe  ] };
     
+    key <AE01> { [               1,          exclam,    onesuperior                       ] };
+    key <AE02> { [               2,        quotedbl,    twosuperior,               U2019  ] };  // single quote used often as an apostrophe (deprecated)
+    key <AE03> { [               3,      numerosign,          U00A7,               U20B4  ] };  // Paragraph and Hryvnia sign
+    key <AE04> { [               4,       semicolon,         dollar,            EuroSign  ] };
+    key <AE05> { [               5,         percent,         degree                       ] };
+    key <AE06> { [               6,           colon,           less                       ] };
+    key <AE07> { [               7,        question,        greater                       ] };
+    key <AE08> { [               8,        asterisk, enfilledcircbullet                   ] };
+    key <AE09> { [               9,       parenleft,    bracketleft,           braceleft  ] };
+    key <AE10> { [               0,      parenright,   bracketright,          braceright  ] };
+    key <AE11> { [           minus,      underscore,         emdash,              endash  ] };
+    key <AE12> { [           equal,            plus,       notequal,           plusminus  ] };
+    
     key <AD01> { [   Cyrillic_shorti,   Cyrillic_SHORTI,    Ukrainian_yi,   Ukrainian_YI    ] };
     key <AD05> { [       Cyrillic_ie,       Cyrillic_IE,    Ukrainian_ie,   Ukrainian_IE    ] };
     key <AD12> { [ Cyrillic_hardsign, Cyrillic_HARDSIGN,    apostrophe  ] };
     key <AC11> { [        Cyrillic_e,        Cyrillic_E,    Ukrainian_ie,   Ukrainian_IE    ] };
     key <AB05> { [        Cyrillic_i,        Cyrillic_I,    Ukrainian_i,    Ukrainian_I     ] };
     key <AD07> { [      Cyrillic_ghe,      Cyrillic_GHE,    Ukrainian_ghe_with_upturn, Ukrainian_GHE_WITH_UPTURN  ] };
-    key <AB10> { [        period,           comma,        slash,          backslash       ] };
+    key <AB08> { [       Cyrillic_be,       Cyrillic_BE,    less                            ] };
+    key <AB09> { [       Cyrillic_yu,       Cyrillic_YU,    greater                         ] };
+    key <AB10> { [            period,             comma,    slash,          backslash       ] };
 
 };
