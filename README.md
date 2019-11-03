@@ -1,5 +1,16 @@
 # bandera-layout-linux
 
+Idea is to have russian and ukrainian layout at once. Primary layout is russian, ukrainian letters are getting with
+
+<3rd_level_mod> + и = і
+<3rd_level_mod> + й = ї
+<3rd_level_mod> + э = є
+<3rd_level_mod> + г = ґ
+<3rd_level_mod> + ъ = '
+<3rd_level_mod> + . = / (small bonus)
+
+<3rd_level_mod> is a key to activate 3rd level of keys. I'm usually using one of Alt's.
+
 This is inspired by https://github.com/muromec/bandera-layout
 
 Installation
