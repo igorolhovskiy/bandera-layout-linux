@@ -322,7 +322,7 @@ xkb_symbols "bandera" {
     include "ru(common)"
     name[Group1]= "Cyrillic Bilingual (Bandera)";
     
-    key <TLDE> { [       Cyrillic_io,       Cyrillic_IO,    asciitilde, apostrophe  ] };
+    key <TLDE> { [       Cyrillic_io,       Cyrillic_IO,    grave, asciitilde  ] };
     
     key <AE01> { [               1,          exclam,    onesuperior                       ] };
     key <AE02> { [               2,        quotedbl,    twosuperior,               U2019  ] };  // single quote used often as an apostrophe (deprecated)
